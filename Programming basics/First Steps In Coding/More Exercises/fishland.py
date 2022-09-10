@@ -1,0 +1,10 @@
+skum_kg_price = float(input())
+caca_kg_price = float(input())
+palamud_kg = float(input())
+safrid_kg = float(input())
+mussels_kg = int(input())
+palamud_price = skum_kg_price + (skum_kg_price * 0.60)
+safrid_price = caca_kg_price + (caca_kg_price * 0.80)
+mussels_price = 7.50
+total_sum = (palamud_price * palamud_kg) + (safrid_price * safrid_kg) + (mussels_price * mussels_kg)
+print(f'{total_sum:.2f}')
